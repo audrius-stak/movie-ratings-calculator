@@ -18,7 +18,7 @@ def resource_path(relative_path):
     return os.path.join(base_path, relative_path)
 
 
-DEFAULT_API_KEY = "f8e3a86ccbc7360ff7b4d84c56c19edc"
+DEFAULT_API_KEY = " TMDB API key"
 
 def get_imdb_rating(movie_title):
     ia = IMDb()
